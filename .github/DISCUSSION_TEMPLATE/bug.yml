@@ -1,0 +1,63 @@
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting an issue with Milthm.
+        Before submitting, please check if your issue has already been reported in:
+        - [GitHub Discussions](https://github.com/orgs/MilthmLang/discussions)
+        - QQ Channel Feedback
+        - Discord Feedback
+
+        Please do not report issues caused by running Milthm with other heavy apps.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug Description
+      description: Briefly describe the issue you encountered. Just copy the title or leave it blank if you have no idea.
+    validations:
+      required: false
+
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to Reproduce
+      description: List the steps to reproduce the bug. Only report issues that can be reproduced consistently.
+      value: |
+        1. First
+        2. Then
+        3. Result
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Screenshots / Logs / Videos
+      description: Attach any relevant screenshots, logs, or videos. You can also put this section in the reproduce section.
+    validations:
+      required: false
+
+  - type: textarea
+    id: env
+    attributes:
+      label: Environment Information
+      description: Copy your system information from the game settings.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behaviour
+      description: Describe what you think should happen instead.
+      value: |
+        Milthm: 
+        - Version: v4.0.4
+        - BundleVersion: 4.0.4
+        - BuildSymbols: ……
+        - Platform: ……
+        - ……
+    validations:
+      required: true
