@@ -44,6 +44,13 @@ body:
     attributes:
       label: Environment Information
       description: Copy your system information from the game settings.
+      value: |
+        Milthm: 
+        - Version: v4.0.4
+        - BundleVersion: 4.0.4
+        - BuildSymbols: ……
+        - Platform: ……
+        - ……
     validations:
       required: true
 
@@ -52,12 +59,5 @@ body:
     attributes:
       label: Expected Behaviour
       description: Describe what you think should happen instead.
-      value: |
-        Milthm: 
-        - Version: v4.0.4
-        - BundleVersion: 4.0.4
-        - BuildSymbols: ……
-        - Platform: ……
-        - ……
     validations:
       required: true
